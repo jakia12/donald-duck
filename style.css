@@ -39,6 +39,11 @@
   width: 100%;
   margin-bottom: -3%;
 }
+.cta_image {
+  width: 33%;
+  margin-bottom: -8rem !important;
+  z-index: 2;
+}
 @media screen and (max-width: 1440px) {
   .footer_mao-l {
     width: 24vw;
