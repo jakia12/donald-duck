@@ -7,3 +7,49 @@
   max-width: 52rem;
   width: 100%;
 }
+
+.cta_image {
+  width: 33%;
+  margin-bottom: 3rem;
+}
+.footer_mao-l {
+  width: 24vw;
+  max-width: 21rem;
+  position: absolute;
+  inset: auto auto 0% 1%;
+  height: 431px;
+  bottom: -18%;
+  z-index: 2;
+}
+
+.footer_mao-r {
+  width: 24vw;
+  max-width: 21rem;
+  position: absolute;
+  inset: auto 0% 0% auto;
+  bottom: -37%;
+}
+.community_image {
+  border: none !important;
+  border-radius: 1.25rem;
+  width: 27.75rem;
+}
+@media screen and (max-width: 1440px) {
+  .footer_mao-l {
+    width: 24vw;
+    max-width: 21rem;
+    position: absolute;
+    inset: auto auto 0% 1%;
+    height: 431px;
+    bottom: -47%;
+    z-index: 2;
+  }
+
+  .footer_mao-r {
+    width: 24vw;
+    max-width: 21rem;
+    position: absolute;
+    inset: auto 0% 0% auto;
+    bottom: -69%;
+  }
+}
